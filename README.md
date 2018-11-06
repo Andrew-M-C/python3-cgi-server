@@ -51,3 +51,10 @@ Please refer to `test()` function in File `cgi/rest.py`. Here are the descriptio
 In this demo, the path "`/p3-cgi/restful`" is an example for RESTful API GET method. It will return resources requested by HTTP client.
 
 Specially, this API returns sub-resource names for resource nodes, while whole resource infomation for resource leaves.
+
+You can access following URLs for a glance:
+
+- https://andrewmc.cn/p3-cgi/restful/
+- https://andrewmc.cn/p3-cgi/restful/people
+- https://andrewmc.cn/p3-cgi/restful/people/teachers/001
+

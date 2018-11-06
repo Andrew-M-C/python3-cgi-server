@@ -47,3 +47,9 @@ $ cd -
 在 demo 中，路径 "`/p3-cgi/restful`" 是一个 RESTful API 的 GET 方法示例。代码中定义了一个简单的资源树，然后解析请求的 URI，并且将 URI 对应的资源返回给前端。
 
 这里比较特别的是，对于资源节点，API 只返回下一级节点的名称列表，只有对叶子结点才会返回完整的资源信息。
+
+你可以访问以下路径感受一下:
+
+- https://andrewmc.cn/p3-cgi/restful/
+- https://andrewmc.cn/p3-cgi/restful/people
+- https://andrewmc.cn/p3-cgi/restful/people/teachers/001
